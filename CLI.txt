@@ -13,6 +13,9 @@ git log
 git log --oneline
 git log --graph --oneline --decorate
 
+due to git ignore file:
+git add -f src/backend/storage/app/public/fonts/HandWritten/Handwritten-WIllow.png
+
 Display the contents of a file:
 cat data.php
 
