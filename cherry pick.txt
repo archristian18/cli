@@ -1,0 +1,30 @@
+"Practice what is cherry pick"
+
+Find the commit hash (SHA) of the commit you want to cherry-pick. You can use git log to view the commit history:
+
+nav -> example of branch to be log
+
+(ONE COMMIT CHERRY PICK)
+1. git log nav --oneline
+2. copy the hash example: 4314d45
+3. git status
+4. git checkout main (go to ur branch)
+5. git cherry-pick 4314d45
+
+(MULTIPLE COMMIT CHERRY PICK)
+1. git log nav --oneline
+2. copy the hash example: 4314d45 3a3bd61
+3. git status
+4. git checkout main (go to ur branch)
+5. git cherry-pick 4314d45 3a3bd61
+
+(IF THERE WILL BE CONFLICT COMMIT CHERRY PICK)
+1. git log nav --oneline
+2. copy the hash example: 4314d45 3a3bd61
+3. git status
+4. git checkout main (go to ur branch)
+5. git cherry-pick 4314d45 3a3bd61
+6. Solve the conflict (git status to show the conflict)
+7. Solve the conflict VSCODE
+8. git add .
+9. git cherry-pick --continue
