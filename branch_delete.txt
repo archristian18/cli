@@ -1,1 +1,5 @@
 git push origin --delete test_new
+
+Steps for rebase:
+Checkout branch you want to rebase.
+git checkout feature-branch
