@@ -63,3 +63,7 @@ echo "This is some dummy content" > dummyfile.txt
 
 
 df -h
+
+Basic Syntax for Renaming a File
+mv old_filename new_filename
+
