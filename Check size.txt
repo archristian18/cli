@@ -1,0 +1,19 @@
+Output Explanation
+The output of df -h typically includes the following columns:
+
+Filesystem: The name of the file system or partition.
+Size: The total size of the file system.
+Used: The amount of space currently used on the file system.
+Avail: The amount of space available for use on the file system.
+Use%: The percentage of space used.
+Mounted on: The directory where the file system is mounted.
+
+
+
+df -h
+
+du -sh /path/to/directory
+# Display size of a directory
+
+df: The basic command to report file system disk space usage.
+-h: The option to make the output human-readable by showing sizes in a more understandable format (e.g., KB, MB, GB).

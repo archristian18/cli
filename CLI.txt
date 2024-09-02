@@ -1,0 +1,62 @@
+List files in a directory:
+ls
+List files with detailed information:
+ls -l
+List all files, including hidden ones:
+ls -a
+
+git init
+git status
+
+View Commit History
+git log
+git log --oneline
+git log --graph --oneline --decorate
+
+Display the contents of a file:
+cat data.php
+
+Copy a file:
+cp data.php backup_data.php
+
+
+Delete a file:
+rm data.php
+
+Create a new directory:
+mkdir my_directory
+
+
+rmdir my_directory
+Remove a directory:
+
+View the file
+vi .env
+to start editing press I,
+i
+
+Basic Syntax Copy:
+cp composer.json new_data.txt
+
+copy source_file destination_file
+
+Copy a file to a new file in the same directory:
+copy file.txt file_backup.txt
+
+Moving Directories
+Basic Command:
+mv text.txt app/
+
+Moving Multiple Files
+To move multiple files to a directory:
+mv file1.txt file2.txt /path/to/destination/
+
+Using touch Command
+Create an empty file:
+touch dummyfile.txt
+
+Create a file with some text content:
+echo "This is some dummy content" > dummyfile.txt
+
+
+df -h

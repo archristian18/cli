@@ -1,0 +1,14 @@
+docker compose stop
+docker system prune -a
+docker compose build && docker compose run --rm node npm run build
+docker compose up -d
+
+
+"Rebuild and Delete all files"
+docker compose down -v
+docker volume prune --filter all=1
+docker image prune -a
+docker system prune -a
+docker builder prune -a
+docker compose build && docker compose run --rm node npm run build
+docker compose up -d
