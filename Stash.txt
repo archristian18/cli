@@ -1,24 +1,24 @@
-Save Changes to a Stash
+"Save Changes to a Stash"
 git stash
 
-List Stashes
+"List Stashes"
 git stash list
 
-Apply the Latest Stash
+"Apply the Latest Stash"
 git stash apply
 
-Apply a Specific Stash
+"Apply a Specific Stash"
 git stash apply stash@{n}
 
-Delete a Stash
+"Delete a Stash"
 git stash drop stash@{n}
 
-Clear All Stashes
+"Clear All Stashes"
 git stash clear
 
-Apply and Drop Stash: Apply a stash and remove it from the stash list.
+"Apply and Drop Stash: Apply a stash and remove it from the stash list."
 git stash pop
 
-Stash with a Message: Save changes with a descriptive message.
+"Stash with a Message: Save changes with a descriptive message."
 git stash save "message describing the stash"
 

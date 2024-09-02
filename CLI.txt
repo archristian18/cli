@@ -1,44 +1,42 @@
-List files in a directory:
+"List files in a directory:"
 ls
-List files with detailed information:
+"List files with detailed information:"
 ls -l
-List all files, including hidden ones:
+"List all files, including hidden ones:"
 ls -a
 
 git init
 git status
 
-View Commit History
+"View Commit History"
 git log
 git log --oneline
 git log --graph --oneline --decorate
 
-due to git ignore file:
+"due to git ignore file:"
 git add -f src/backend/storage/app/public/fonts/HandWritten/Handwritten-WIllow.png
 
-Display the contents of a file:
+"Display the contents of a file:"
 cat data.php
 
-Copy a file:
+"Copy a file:"
 cp data.php backup_data.php
 
 
-Delete a file:
+"Delete a file:"
 rm data.php
 
-Create a new directory:
+"Create a new directory:"
 mkdir my_directory
-
-
 rmdir my_directory
-Remove a directory:
+"Remove a directory:"
 
-View the file
+"View the file"
 vi .env
 to start editing press I,
 i
 
-Basic Syntax Copy:
+"Basic Syntax Copy:"
 cp composer.json new_data.txt
 
 copy source_file destination_file
@@ -46,24 +44,24 @@ copy source_file destination_file
 Copy a file to a new file in the same directory:
 copy file.txt file_backup.txt
 
-Moving Directories
+"Moving Directories"
 Basic Command:
 mv text.txt app/
 
-Moving Multiple Files
-To move multiple files to a directory:
+"Moving Multiple Files
+To move multiple files to a directory:"
 mv file1.txt file2.txt /path/to/destination/
 
-Using touch Command
-Create an empty file:
+"Using touch Command
+Create an empty file:"
 touch dummyfile.txt
 
-Create a file with some text content:
+"Create a file with some text content:"
 echo "This is some dummy content" > dummyfile.txt
 
 
 df -h
 
-Basic Syntax for Renaming a File
+"Basic Syntax for Renaming a File"
 mv old_filename new_filename
 
