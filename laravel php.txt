@@ -1,5 +1,7 @@
 php artisan db:seed --class=TemplatesTableSeeder
 
+MAIL HOG LINK
+http://127.0.0.1:8025/
 
 SEND .ENV
 
