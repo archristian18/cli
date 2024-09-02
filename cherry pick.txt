@@ -28,3 +28,6 @@ nav -> example of branch to be log
 7. Solve the conflict VSCODE
 8. git add .
 9. git cherry-pick --continue
+
+git cherry-pick --skip
+git cherry-pick --abort
