@@ -1,0 +1,30 @@
+-------------------------
+
+Create dump
+
+docker exec -it mex_mysql sh
+mysqldump -u root -p mex > sample.sql
+Enter password: ("ROOT PASSWORD you can check to .env")
+
+check if already Create
+-------------------------
+
+
+-------------------------
+Copy the file place to folder mex
+
+docker ps
+AFTER get mysql id = df570224d52d
+
+docker cp df570224d52d:/sample.sql .
+
+-------------------------
+
+-------------------------
+Download to your local - (git bash in the with the file pem)
+
+scp -i mex.pem ubuntu@133.167.73.68:~/mex/sample.sql .
+password: ('MYSQL_PASSWORD')
+Now it will download to local
+
+-------------------------
